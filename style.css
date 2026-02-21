@@ -67,3 +67,17 @@ footer {
     background: #111;
     color: white;
 }
+
+section .product a button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section .product a button:hover {
+    background: darkgreen;
+}
