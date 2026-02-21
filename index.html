@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drop Linex</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
 <header>
-    <img src="logo.png" alt="Logo" class="logo">
+    <img src="logo.png" alt="Drop Linex Logo" class="logo">
     <p>Trending Products. Best Prices.</p>
 </header>
 
-
 <section class="product">
-    <img src="https://via.placeholder.com/300" alt="Product">
+    <img src="https://via.placeholder.com/300" alt="Product Image">
     <h2>Portable Blender</h2>
     <p class="price">₹999</p>
-    <button>Order Now</button>
+
+    <form action="https://formspree.io/f/yourID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="text" name="address" placeholder="Address" required>
+        <input type="submit" value="Order Now">
+    </form>
 </section>
 
 <footer>
